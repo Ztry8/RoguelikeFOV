@@ -12,7 +12,7 @@ keywords = ["fov", "field-of-view", "roguelike", "2d"]
 
 [dependencies]
 glam = { version = "0.21" }
-sark_grids = {path="../sark_grids_rs", version="0.5"}
+sark_grids = {git = "https://github.com/sarkahn/sark_grids_rs.git", version="0.5.5"}
 
 [dev-dependencies]
 bevy = {path="../bevy", version = "0.8", default-features = false, features = ["png", "bevy_winit", "bevy_render", "bevy_core_pipeline", "bevy_sprite"]}
