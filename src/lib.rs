@@ -61,7 +61,7 @@ impl VisibilityMap for VisibilityMap2d {
     fn is_in_bounds(&self, p: impl GridPoint) -> bool {
         self.in_bounds(p)
     }
-
+ 
     fn set_visible(&mut self, p: impl GridPoint) {
         if self.in_bounds(p) {
             self[p].visible = true;
@@ -82,12 +82,12 @@ pub trait VisibilityMapUtility {
 
 impl VisibilityMapUtility for VisibilityMap2d {
     fn toggle_opaque(&mut self, p: impl GridPoint) {
-        let i = self.pos_to_index(p);
+        let i = self.transform_lti(p);
         self[i].opaque = !self[i].opaque;
     }
 
     fn toggle_visible(&mut self, p: impl GridPoint) {
-        let i = self.pos_to_index(p);
+        let i = self.transform_lti(p);
         self[i].visible = !self[i].visible;
     }
 
