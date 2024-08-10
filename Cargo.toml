@@ -11,13 +11,8 @@ readme = "README.md"
 keywords = ["fov", "field-of-view", "roguelike", "2d"]
 
 [dependencies]
-<<<<<<< HEAD
 glam = { version = "0.27" }
 sark_grids = {git = "https://github.com/sarkahn/sark_grids_rs.git", version="0.5.9"}
-=======
-glam = { version = "0.27" }
-sark_grids = {git = "https://github.com/materialcontext/sark_grids_rs.git", version="0.5.5"}
->>>>>>> 5f788c4fb0861b017bd02e921de46e91257c90e1
 
 [dev-dependencies]
 bevy = "0.14.1"
