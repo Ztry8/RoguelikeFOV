@@ -12,7 +12,7 @@ keywords = ["fov", "field-of-view", "roguelike", "2d"]
 
 [dependencies]
 glam = { version = "0.27" }
-sark_grids = {git = "https://github.com/sarkahn/sark_grids_rs.git", version="0.5.9"}
+sark_grids = {git = "https://github.com/materialcontext/sark_grids_rs.git", version="0.5.9"}
 
 [dev-dependencies]
 bevy = "0.14.1"
