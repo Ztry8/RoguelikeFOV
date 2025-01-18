@@ -1,11 +1,10 @@
 # RoguelikeFOV
-## An implementation of [Adam's FOV algorithm](http://www.adammil.net/blog/v125_Roguelike_Vision_Algorithms.html#mine)
+## A Rust implementation of [Adam's FOV algorithm](http://www.adammil.net/blog/v125_Roguelike_Vision_Algorithms.html#mine), primarily intended for roguelikes.
 
 ### Usage in Сargo.toml
 `adam_fov_rs = { git = “https://github.com/ztry8/roguelikefov” }` 
 
 ### Example
-
 ```rust
 use adam_fov_rs::*;
 
