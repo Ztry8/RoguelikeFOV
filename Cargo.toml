@@ -1,12 +1,10 @@
 [package]
-name = "adam_fov_rs"
-description = "A rust implementation of Adam Milazzo's FOV algorithm http://www.adammil.net/blog/v125_Roguelike_Vision_Algorithms.html#mine"
-version = "0.2.3"
+name = "roguelike_fov"
+description = "A rust implementation of Adam Milazzo's FOV algorithm for roguelikes"
+version = "0.2.4"
 edition = "2021"
-authors = ["sark", "Adam Milazzo"]
-homepage = "https://github.com/sarkahn/adam_fov_rs"
-repository = "https://github.com/sarkahn/adam_fov_rs"
-license = "MIT"
+authors = ["Ztry8 (AslanD)", "sark", "Adam Milazzo"]
+license = "BSD 3-Clause"
 readme = "README.md"
 keywords = ["fov", "field-of-view", "roguelike", "2d"]
 
