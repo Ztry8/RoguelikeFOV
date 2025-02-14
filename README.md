@@ -2,7 +2,7 @@
 ## A Rust implementation of [Adam's FOV algorithm](http://www.adammil.net/blog/v125_Roguelike_Vision_Algorithms.html#mine)
 
 ### Usage in Сargo.toml
-`adam_fov_rs = { git = “https://github.com/ztry8/roguelikefov” }` 
+`roguelike_fov = { git = “https://github.com/ztry8/roguelikefov” }` 
 
 ### Example
 ```rust
