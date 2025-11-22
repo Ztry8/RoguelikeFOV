@@ -11,7 +11,7 @@ roguelike_fov = { git = "https://github.com/ztry8/roguelikefov" }
 use adam_fov_rs::*;
 
 // Create a 50x50 visibility map
-let mut map = VisibilityMap2d::default([50,50]);
+let mut map = VisibilityMap2d::new([50,50]);
 
 // Set the tile at (15,15) to opaque
 map[[15,15]].opaque = true;
